@@ -1,0 +1,146 @@
+@import 'fonts.scss';
+@import 'normalize.scss';
+
+body{
+  margin: auto;
+  font-family: 'GothamBook', sans-serif;
+}
+
+#sectin_header{
+  height: 800px;
+  background-image: url(../img/headerbackg.jpg);
+  background-size: cover;
+}
+
+#menu_header{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-top: 55px;
+}
+
+#logo{
+  margin-right: 85px;
+  vertical-align: middle;
+}
+
+.divcheckbox{
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.header_a{
+  font-size: 14px;
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+  margin-right: 65px;
+}
+
+.logo_a{
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+/*--------start----------section_news---------------*/
+
+#section_news{
+  height: 1035px;
+  background-image: url(../img/newsbackground.jpg);
+  background-size: cover;
+}
+
+/*--------start----------section_gallery---------------*/
+
+#section_gallery{
+  height: 1000px;
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#divline{
+  width: 100px;
+  height: 2px;
+  background-color: #2c4058;
+  margin: 140px  auto  40px;
+}
+
+h2{
+  font-size: 44px;
+  color: #2c4058;
+  font-family: 'GothamMediumRegular' sans-serif;
+  margin: 0;
+}
+
+#gallery_grid{
+  margin: 100px auto 60px;
+  width: 1170px;
+  height: 440px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 10px;
+}
+
+#gallery_img1{
+  background-image: url(../img/galleryimg1.jpg);
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  height: 440px;
+  width: 580px;
+  background-size: cover;
+}
+
+#gallery_img2{
+  background-image: url(../img/galleryimg2.jpg);
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  height: 215px;
+  width: 285px;
+  background-size: cover;
+}
+
+#gallery_img3{
+  background-image: url(../img/galleryimg3.jpg);
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+  height: 215px;
+  width: 285px;
+  background-size: cover;
+}
+
+#gallery_img4{
+  background-image: url(../img/galleryimg4.jpg);
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  height: 215px;
+  width: 285px;
+  background-size: cover;
+}
+
+#gallery_img5{
+  background-image: url(../img/galleryimg5.jpg);
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+  height: 215px;
+  width: 285px;
+  background-size: cover;
+}
+
+button{
+  width: 190px;
+  height: 50px;
+  color: #2c4058;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #2c4058;
+  background-color: white;
+}
+
+button:hover{
+  opacity: .8;
+}

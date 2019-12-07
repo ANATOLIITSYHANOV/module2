@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+@font-face {
+    font-family: 'gothambold1';
+  src: url("../fonts/gothambold/gothambold1.eot");
+  src: local("gothambold1"), url("../fonts/gothambold/gothambold1.woff") format("woff"), url("../fonts/gothambold/gothambold1.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'GothamBook';
+  src: url("../fonts/gothambook/GothamBook.eot");
+  src: local("GothamBook"), url("../fonts/gothambook/GothamBook.woff") format("woff"), url("../fonts/gothambook/GothamBook.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'GothamMediumRegular';
+  src: local("GothamMediumRegular"), url("../fonts/gotham medium regular/gotham-medium-webfont") format("woff"), url("../fonts/gotham medium regular/Gotham Medium Regular.ttf") format("truetype");
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+hr {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+a {
+    background-color: transparent;
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+}
+
+b, strong {
+    font-weight: bolder;
+}
+
+code, kbd, samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+img {
+    border-style: none;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+button, input {
+    overflow: visible;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+
+progress {
+    vertical-align: baseline;
+}
+
+textarea {
+    overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+[type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+}
+
+details {
+    display: block;
+}
+
+summary {
+    display: list-item;
+}
+
+template {
+    display: none;
+}
+
+[hidden] {
+    display: none;
+}
+
+body {
+    margin: auto;
+    font-family: 'GothamBook', sans-serif;
+}
+
+#sectin_header {
+    height: 800px;
+    background-image: url(../img/headerbackg.jpg);
+    background-size: cover;
+}
+
+#menu_header {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+
+#logo {
+    margin-right: 85px;
+    vertical-align: middle;
+}
+
+.divcheckbox {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header_a {
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+    text-decoration: none;
+    margin-right: 65px;
+}
+
+.logo_a {
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+/*--------start----------section_news---------------*/
+#section_news {
+    height: 1035px;
+    background-image: url(../img/newsbackground.jpg);
+    background-size: cover;
+}
+
+/*--------start----------section_gallery---------------*/
+#section_gallery {
+    height: 1000px;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#divline {
+    width: 100px;
+    height: 2px;
+    background-color: #2c4058;
+    margin: 140px  auto  40px;
+}
+
+h2 {
+    font-size: 44px;
+    color: #2c4058;
+    font-family: 'GothamMediumRegular' sans-serif;
+    margin: 0;
+}
+
+#gallery_grid {
+    margin: 100px auto 60px;
+    width: 1170px;
+    height: 440px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+}
+
+#gallery_img1 {
+    background-image: url(../img/galleryimg1.jpg);
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    height: 440px;
+    width: 580px;
+    background-size: cover;
+}
+
+#gallery_img2 {
+    background-image: url(../img/galleryimg2.jpg);
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    height: 215px;
+    width: 285px;
+    background-size: cover;
+}
+
+#gallery_img3 {
+    background-image: url(../img/galleryimg3.jpg);
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    height: 215px;
+    width: 285px;
+    background-size: cover;
+}
+
+#gallery_img4 {
+    background-image: url(../img/galleryimg4.jpg);
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    height: 215px;
+    width: 285px;
+    background-size: cover;
+}
+
+#gallery_img5 {
+    background-image: url(../img/galleryimg5.jpg);
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    height: 215px;
+    width: 285px;
+    background-size: cover;
+}
+
+button {
+    width: 190px;
+    height: 50px;
+    color: #2c4058;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #2c4058;
+    background-color: white;
+}
+
+button:hover {
+    opacity: .8;
+}
