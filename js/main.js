@@ -269,7 +269,7 @@ function initMap() {
   let marker = new google.maps.Marker({
     position: geo,
     map: map,
-    icon: '../img/marker.png',
+    icon: './img/marker.png',
     title: '91 Nolan'
   });
 }
