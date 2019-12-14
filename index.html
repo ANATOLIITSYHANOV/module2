@@ -3,23 +3,29 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>monticello</title>
+  <title>Monticello</title>
   <link rel="stylesheet" href="css/main.css" />
-  <link rel="shortcut icon" href="favicon.png" type="img/logo.png" />
+  <link rel="icon" href="img/favicon(WebFlat).ico"/>
   <meta name="viewport" content="width=device-width" />
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/jcarousel/core.js"></script>
+  <script type="text/javascript" src="js/jcarousel/control.js"></script>
+  <script type="text/javascript" src="js/jcarousel/pagination.js"></script>
+  <script type="text/javascript" src="js/jcarousel/autoscroll.js"></script>
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
 </head>
 
 <body>
   <header>
-    <div id="sectin_header">
-      <div id="menu_header">
+    <div id="menu_header">
+      <div class="header_inl_block">
         <img src="img/logo.png" alt="logo" id="logo">
-        <a href="#" class="header_a" id="aboutus">
+        <a href="#section_whatwedo" class="header_a" id="aboutus">
           <div class="divcheckbox" id="divaboutus"></div>
           ABOUT US
         </a>
-        <a href="#" class="header_a" id="projects">
+        <a href="#section_gallery" class="header_a" id="projects">
           <div class="divcheckbox" id="divprojects"></div>
           PROJECTS
         </a>
@@ -27,10 +33,12 @@
           <div class="divcheckbox" id="divnews"></div>
           NEWS
         </a>
-        <a href="#" class="header_a" id="conact">
+        <a href="#section_conact" class="header_a" id="conact">
           <div class="divcheckbox" id="divconact"></div>
           CONTACT
         </a>
+      </div>
+      <div class="header_inl_block">
         <a href="https://uk-ua.facebook.com/" target="_blank" class="logo_a"> <img src="img/ficebooklogo.png"
             alt="ficebooklogo" /> </a>
         <a href="https://twitter.com/?lang=uk" target="_blank" class="logo_a"> <img src="img/twitterlogo.png"
@@ -39,14 +47,93 @@
             alt="instagramlogo" /> </a>
       </div>
     </div>
+    <div class="header_slider">
+      <div class="bg_head slide1">
+        <h1>Simple & Modern</h1>
+        <p class="p_slider">We make the world's beautiful every day</p>
+      </div>
+      <div class="bg_head slide2">
+        <h1>Simple & Modern</h1>
+        <p class="p_slider">We make the world's beautiful every day</p>
+      </div>
+      <div class="bg_head slide3">
+        <h1>Simple & Modern</h1>
+        <p class="p_slider">We make the world's beautiful every day</p>
+      </div>
+      <div class="bg_head slide4">
+        <h1>Simple & Modern</h1>
+        <p class="p_slider">We make the world's beautiful every day</p>
+      </div>
+      <div class="bg_head slide5">
+        <h1>Simple & Modern</h1>
+        <p class="p_slider">We make the world's beautiful every day</p>
+      </div>
+    </div>
+    <a href="#section_gallery" id="scrollbottom"><img src="img/scrollbottom.png" /></a>
   </header>
   <main>
-    <div id="section_news"></div>
+
+    <div id="section_whatwedo">
+      <div class="divline"></div>
+      <h2>WHAT WE DO</h2>
+      <div class="backgroundcolor divblue"></div>
+      <div class="backgroundcolor divblue2"></div>
+      <div class="whatwedo_content1">
+        <div class="section_whatwedo1_img"></div>
+        <div class="section_whatwedo1_text">
+          <h3>ONE WORLD</h3>
+          <h2>TRADE CENTER</h2>
+          <p> Increasing prosperity in our lives can be accomplished by
+            having the right frame of mind. The truth is, our thoughts are very powerful.</p>
+          <button>more details</button>
+          <a href="https://www.google.com/maps/search/?api=1&query=40.7142,-74.0064" class="section_whatwedo_a"
+            target="_blank">
+            <img src="img/maplocal.svg" class="svg">
+            New York City, United States - 1776 feet</a>
+        </div>
+      </div>
+      <div class="whatwedo_content2">
+        <div class="section_whatwedo2_text">
+          <h3>INTERNATIONAL</h3>
+          <h2>COMMERCE CENTER</h2>
+          <p> Successful businesses have many things in common,
+            today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.</p>
+          <button>more details</button>
+          <a href="https://www.google.com/maps/place/22%C2%B016'
+            59.9%22N+114%C2%B009'00.0%22E/@22.2833,114.15,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d22.2833!4d114.15"
+            class="section_whatwedo_a" target="_blank">
+            <img src="img/maplocal.svg" class="svg">
+            Hong Kong - 1588 Feet</a>
+        </div>
+        <div class="section_whatwedo2_img"></div>
+      </div>
+    </div>
+
+    <div id="section_news">
+      <div id="void"></div>
+      <div id="divline_white"></div>
+      <h2 class="color_white">latest news</h2>
+      <div id="forscrolls">
+        <div class="jcarousel_prev bothdiv"></div>
+        <div class="jcarousel_next bothdiv"></div>
+        <div class="wrap_jcarousel">
+          <div class="jcarousel">
+            <ul>
+              <li> <img src="img/newsimg1.jpg" alt="news"> </li>
+              <li> <img src="img/newsimg2.jpg" alt="news"> </li>
+              <li> <img src="img/newsimg3.jpg" alt="news"> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <div id="section_gallery">
-      <div id="divline"></div>
+      <div class="divline"></div>
       <h2>GALLERY</h2>
       <div id="gallery_grid">
-        <div id="gallery_img1"></div>
+        <div id="gallery_img1"><a href="#section_gallery" id="icon360"><img src="img/icon360.png"></a></div>
         <div id="gallery_img2"></div>
         <div id="gallery_img3"></div>
         <div id="gallery_img4"></div>
@@ -57,9 +144,61 @@
 
   </main>
   <footer>
-
+    <div id="section_conact">
+      <div id="section_conact_div1"></div>
+      <div id="section_conact_div2">
+        <div class="footer_div_a">
+          <a href="#"><img src="img/logo.png" alt="logo" id="logo"></a>
+          <a href="https://uk-ua.facebook.com/" target="_blank" class="logo_a footer_a1"> <img
+              src="img/ficebooklogo.png" alt="ficebooklogo" /> </a>
+          <a href="https://twitter.com/?lang=uk" target="_blank" class="logo_a"> <img src="img/twitterlogo.png"
+              alt="twitterlogo" /> </a>
+          <a href="https://www.instagram.com/?hl=uk" target="_blank" class="logo_a footer_a3"> <img
+              src="img/instagramlogo.png" alt="instagramlogo" /> </a>
+          <i class="footer_i">Copyrights © 2017 Monticello <div id="vertical_line"></div> Made with
+            <img src="img/heardwhite.png" alt="heard"> by Ga Huy</i>
+          <div class="footer_form">
+            <div class="footer_line"></div>
+            <h2 class="footer-h2">GET IN TOUCH</h2>
+            <div class="footer_form_div-flex">
+              <div class="footer_form_div1">
+                <p class="footer_p"> <img src="img/maplocal.svg" alt="maplocal" class="footer_icon"> 91 Nolan Extensions
+                  Suite 67 </p>
+                <p class="footer_p"> <img src="img/fone.svg" alt="fone" class="footer_icon"> +001-356-868-2454</p>
+                <p class="footer_p"> <img src="img/ibox.svg" alt="ibox" class="footer_icon"> gahuy93@gmail.com</p>
+                <p class="footer_p"> <img src="img/clock.svg" alt="clock" class="footer_icon"> From 07:05AM to 19:30PM
+                </p>
+              </div>
+              <div class="footer_form_div2">
+                <input type="text" class="footer_input" placeholder="Name">
+                <input type="text" class="footer_input" placeholder="Email">
+                <button class="footer_button">SUBMIT</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
+
   <script src="js/main.js"></script>
+  <script src="slick-1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $('.header_slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 4000,
+    });
+  </script>
+  
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYJ6rnfcgTTYTo_1VDH-F-R5x7qQ2vdQs&callback=initMap">
+</script>
+
 </body>
 
 </html>

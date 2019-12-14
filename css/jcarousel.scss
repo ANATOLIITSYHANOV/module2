@@ -1,0 +1,48 @@
+#forscrolls{
+    max-width: 1170px;
+    min-width: 440px;
+    margin: 100px auto 0;
+    position: relative;
+}
+
+.wrap_jcarousel{
+    max-width: 1170px;
+    min-width: 440px;
+    position: relative;
+}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 10000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        float: left;
+        margin-left: 31px;
+    }
+}
+
+.bothdiv{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.jcarousel_prev{
+    top: 235px;
+    left: -60px;
+    background-image:url(../img/whitescrollleft.png) ;
+}
+
+.jcarousel_next{
+    top: 235px;
+    right: -91px;
+    background-image:url(../img/whitescrollright.png) ;
+}
